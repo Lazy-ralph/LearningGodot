@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://camrs1mwy458w"]
+
+[ext_resource type="Texture2D" uid="uid://dfl4qn0swy3na" path="res://darkPurple.png" id="1_dj01w"]
+
+[node name="Maze" type="Area2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-355, -217, -176, 85, -94, 132, -75, 313, 204, 342, 395, 278, 510, 361, 620, 358, 738, 307, 900, 370, 1075, 269, 1116, 92, 1045, -59, 896, -328, 972, -476, 862, -585, 651, -603, 408, -600, 411, -489, 571, -489, 766, -443, 778, -305, 860, -124, 946, 70, 945, 210, 724, 153, 605, 204, 455, 168, 272, 164, 121, 206, 38, 100, 189, -283)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture_repeat = 2
+texture = ExtResource("1_dj01w")
+polygon = PackedVector2Array(-355, -217, -176, 85, -94, 132, -75, 313, 204, 342, 395, 278, 510, 361, 620, 358, 738, 307, 900, 370, 1075, 269, 1116, 92, 1045, -59, 896, -328, 972, -476, 862, -585, 651, -603, 408, -600, 411, -489, 571, -489, 766, -443, 778, -305, 860, -124, 946, 70, 945, 210, 724, 153, 605, 204, 455, 168, 272, 164, 121, 206, 38, 100, 189, -283)
